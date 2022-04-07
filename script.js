@@ -16,6 +16,7 @@ window.addEventListener('load', (event) => {
 
         let list_text = document.createElement("input");
         list_text.classList.add("list_text");
+        list_text.style.color = "grey";
 
         let actions = document.createElement("div");
         actions.classList.add("actions");
@@ -44,11 +45,14 @@ window.addEventListener('load', (event) => {
 
         editButton.addEventListener('click', () =>{
             if(editButton.innerHTML.toLowerCase() == "edit"){
+                list_text.style.color = "black";
                 list_text.removeAttribute("readonly");
+                list_text.focus();
                 editButton.innerHTML = "Save";
             }
             else{
                 list_text.setAttribute("readonly", true);
+                list_text.style.color = "grey";
                 editButton.innerHTML = "Edit";
             }
         })
