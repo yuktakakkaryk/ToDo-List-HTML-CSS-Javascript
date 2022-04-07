@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to bottom, grey, cyan);
+    height: 100vh;
+    margin-top: 20px;
+}
+
+header h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#input{
+    text-align: center;
+}
+
+#input_text{
+    width: 500px;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+#input_button{
+    width: 120px;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#input_button:hover{
+    opacity: 0.8;
+}
+
+.class_list{
+    border: 2px solid rgba(255, 255, 255, 0.349);
+    display: inline-block;
+    margin-left: 16%;
+    margin-top: 30px;
+    padding: 20px;
+    width: 830px;
+}
+
+#list{
+    display: inline-block;
+}
+
+.task{
+    display: flex;
+}
+
+.list_text{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color: rgba(230, 230, 230, 0.486);
+}
+
+.edit{
+    width: 120px;
+    padding: 12px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.edit:hover{
+    opacity: 0.8;
+}
+
+.delete{
+    width: 120px;
+    padding: 12px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: crimson;
+    color: white;
+}
+
+.delete:hover{
+    opacity: 0.8;
+}
+
+section h2{
+    font-size: 30px;
+}
